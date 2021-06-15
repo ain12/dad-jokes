@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Dad jokes generator</h2>
       <p>{joke}</p>
       <button onClick={getJoke}>Next Joke</button>
     </div>
