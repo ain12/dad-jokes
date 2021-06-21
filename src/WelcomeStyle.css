@@ -1,0 +1,35 @@
+.welcome {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.welcome button {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    border: 3px solid #000;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.welcome button:hover {
+    box-shadow: 5px 5px #000;
+}
+
+.credits {
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.credits a {
+    text-decoration: none;
+}

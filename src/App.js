@@ -1,25 +1,14 @@
 import React, { useState } from "react";
-import './App.css';
+//import './components/App.css';
+import JokeApp from "./components/JokeApp";
+import WelcomePage from "./Welcome"
 
 function App() {
-  const [joke, setJoke] = useState("");
-
-  const getJoke = () => {
-    fetch("https://icanhazdadjoke.com/", {
-      headers: {
-        "Accept": "application/json"
-      }
-    })
-      .then(res => res.json())
-      .then(data => setJoke(data.joke))
-  }
-
+  const [welcome, setWelcome] = useState(true);
   return (
-    <div className="App">
-      <h2>Dad jokes generator</h2>
-      <p>{joke}</p>
-      <button onClick={getJoke}>Next Joke</button>
-    </div>
+    <React.Fragment>
+      {welcome ? <WelcomePage content={welcome} onEnterClick={() => setWelcome(false)} /> : <JokeApp></JokeApp>}
+    </React.Fragment>
   )
 }
 

@@ -2,14 +2,14 @@
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
-    padding: 5rem;
+    padding: 7rem;
     width: 75vh;
     height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: -20px 20px 0px #BBEBF2;
+    box-shadow: -25px 25px 0px #BBEBF2;
 }
 
 .App h2 {
@@ -37,4 +37,17 @@
 
 .App button:hover {
     box-shadow: 5px 5px #414AAB;
+}
+
+.weather {
+    padding-top: 1rem;
+}
+
+.weather h4 {
+    padding-bottom: 0.5rem;
+    color: #646172;
+}
+
+.weather p {
+    margin: 0;
 }
