@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description 
+A random joke generator app with a weather seaction for the user. The API weather key is hidden in .gitignore in an .ENV file. 
+
+## DEMO
+
+![React-App-Dad-Jokes](https://user-images.githubusercontent.com/69805199/122741605-66ac8e00-d285-11eb-8c1b-d1f0d8575254.gif)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
