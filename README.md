@@ -26,5 +26,5 @@ npm install
 
 ## DEMO
 ![React-App-Dad-Jokes](https://user-images.githubusercontent.com/69805199/122741605-66ac8e00-d285-11eb-8c1b-d1f0d8575254.gif)
-
+Link to demo: https://3rk8y.csb.app/
 
